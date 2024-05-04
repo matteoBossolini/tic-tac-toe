@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+
+        <div class="container">
+
+            <h2>Tic Tac Toe</h2>
+            
+            <p id="playerTurn"></p>
+
+            <div id="gameboard">
+                <div class="row 1">
+                    <button class="buttonBoard" id="0"></button>
+                    <button class="buttonBoard" id="1"></button>
+                    <button class="buttonBoard" id="2"></button>
+                </div>
+                <div class="row 2">
+                    <button class="buttonBoard" id="3"></button>
+                    <button class="buttonBoard" id="4"></button>
+                    <button class="buttonBoard" id="5"></button>
+                </div>
+                <div class="row 3">
+                    <button class="buttonBoard" id="6"></button>
+                    <button class="buttonBoard" id="7"></button>
+                    <button class="buttonBoard" id="8"></button>
+                </div>
+            </div>
+
+            <dialog>
+                <div>
+                    <h3 id="playerWin"></h3>
+                    <p id="counter"></p>
+                    <button autofocus>re-start the game</button>
+                </div>
+              </dialog>
+        </div>
+
+        <script src="index.js"></script>
+        <script>
+            displayController.init();
+        </script>
+    </body>
+</html>
